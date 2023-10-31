@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    width: 100%;
+    min-height: 100vh;
+    padding:5px;
+    background-image:linear-gradient(rgba(0,210,210,0.9), rgba(0,10,20,0.5)), url(../media/tree.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.img{
+    
+    text-align: center;
+
+}
+.img img{
+    width: 400px;
+    height: 250px;
+    /* display: inline; */
+}
+.google{
+text-align: center;
+position: relative;
+top: -70px;
+}
+.google .googlearea {
+    display: inline-block;
+    /* justify-content: center; */
+    font-size: 80px;
+    /* font-weight: bold; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.blue{
+    color: white;
+}
+.red{
+    color: white;
+}
+.yellow{
+    color: white;
+}
+.green{
+    color: white;
+}
+.hight{
+    position: relative;
+    top: -40px;
+}
+
+.searchbar {
+    text-align: center;
+    margin: 0px auto;
+    background: white;
+    border-radius: 30px;
+    width: 700px;
+}
+.searchbar .searcharea{
+
+    padding: 20px 0px;
+} 
+.searchbar .searcharea input{
+width: 600px;
+border: none;
+font-size: 20px;
+padding-left: 15px;
+outline: none;
+}
+.searchbar .searcharea button{
+    border:none;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+.searchbar .searcharea button .fa-solid:hover{
+    color: crimson;
+    font-size: 21px;
+}
+.head .button{
+    display: flex;
+    justify-content:center;
+    margin: 30px 0px;
+
+}
+.head .button .aa{
+    margin-right: 7px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    /* color: black; */
+}
+.head .button .bb {
+    margin-left: 7px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    /* color: black; */
+}
+.head .button a{
+    color: black;
+}
+.text{
+    text-align: center;
+    color: white;
+
+}
+.text a{
+    color: white;
+    color: rgb(202, 153, 248);
+}
+.leaguagae{
+    text-align: center;
+    margin: 30px 0px;
+    color: white;
+}
+.leaguagae a {
+    color: rgb(202, 153, 248)
+}
+
+@media(max-width:890px){
+    .img img{
+        width: 340px;
+        height: 210px;
+    }
+    .google .googlearea{
+        font-size:70PX;
+    }
+    .hight{
+        top: -50px;
+    }
+    .searchbar {
+        text-align: center;
+        margin: 0px auto;
+        background: white;
+        border-radius: 30px;
+        width: 600px;
+    }
+    .searchbar .searcharea{
+
+        padding: 15px 0px;
+    } 
+    .searchbar .searcharea input{
+    width: 500px;
+    border: none;
+    font-size: 17px;
+    padding-left: 15px;
+    outline: none;
+    }
+    .searchbar .searcharea button{
+        border:none;
+        font-size: 20px;
+        background-color: white;
+        cursor: pointer;
+    }
+    .searchbar .searcharea button .fa-solid:hover{
+        color: crimson;
+        font-size: 21px;
+    }
+}
+@media(min-width:560px) and (max-width:690px){
+    .img img{
+        width: 300px;
+        height: 190px;
+    }
+    .google .googlearea{
+        font-size: 70PX;
+    }
+    .hight{
+        top: -50px;
+    }
+    .searchbar {
+      
+        width: 500px;
+    }
+    .searchbar .searcharea{
+
+        padding: 15px 0px;
+    } 
+    .searchbar .searcharea input{
+    width: 400px;
+   
+    }
+    .searchbar .searcharea button{
+        border:none;
+        font-size: 15px;
+        background-color: white;
+        cursor: pointer;
+    }
+    .searchbar .searcharea button .fa-solid:hover{
+        color: crimson;
+        font-size: 15.8px;
+    }
+}
+
+@media(min-width:460px) and (max-width:559.9px){
+    .img img{
+        width: 270px;
+        height: 160px;
+    }
+    .google .googlearea{
+        font-size: 60PX;
+    }
+    .hight{
+        top: -40px;
+    }
+    .google{
+        top: -60px;
+    }
+    .searchbar {
+      
+        width: 400px;
+    }
+    .searchbar .searcharea{
+
+        padding: 13px 0px;
+    } 
+    .searchbar .searcharea input{
+        width: 300px;
+        font-size: 14px;
+   
+    }
+    .searchbar .searcharea button{
+        border:none;
+        font-size: 15px;
+        background-color: white;
+        cursor: pointer;
+    }
+    .searchbar .searcharea button .fa-solid:hover{
+        color: crimson;
+        font-size: 15.8px;
+    }
+    .head .button{
+        margin: 20px 0px;
+    
+    }
+    
+    .head .button .aa a{
+      font-size: 12px;
+    }
+    .head .button .bb a{
+        font-size: 12px;
+      }
+    .text{
+        font-size: 12px;
+    }
+    .leaguagae{
+        font-size:12px;
+        margin-top: 20px;
+    }
+    
+
+}
+@media(min-width:360px) and (max-width:459.9px){
+    .img img{
+        width: 250px;
+        height: 150px;
+    }
+    .google .googlearea{
+        font-size: 50PX;
+    }
+    .hight{
+        top: -40px;
+    }
+    .google{
+        top: -50px;
+    }
+    .searchbar {
+      
+        width: 300px;
+    }
+    .searchbar .searcharea{
+
+        padding: 10px 0px;
+    } 
+    .searchbar .searcharea input{
+        width: 200px;
+        font-size: 10px;
+   
+    }
+    .searchbar .searcharea button{
+        font-size: 15px;
+        background-color: white;
+        cursor: pointer;
+    }
+    .searchbar .searcharea button .fa-solid:hover{
+        color: crimson;
+        font-size: 15.8px;
+    }
+    .head .button{
+        margin: 20px 0px;
+    
+    }
+    
+    .head .button .aa a{
+      font-size: 10px;
+    }
+    .head .button .bb a{
+        font-size: 10px;
+      }
+    .text{
+        font-size: 12px;
+    }
+    .leaguagae{
+        font-size:12px;
+        margin-top: 20px;
+    }
+    
+
+}
